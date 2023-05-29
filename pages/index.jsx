@@ -16,7 +16,7 @@ export default function Home() {
               <div className="flex flex-col lg:justify-start justify-center items-center lg:items-start mt-5 lg:mt-0 w-full">
                 <div className="flex items-center">
                 <p className="flex items-center text-white text-4xl font-semibold">
-                  Umut Bayraktar
+                  Fuwk4n
                 </p>
                   <Tippy content={`Online`} animation="shift-away" arrow={false}>
                     <span className={`ml-2 text-online px-2 py-1 font-normal rounded-md text-sm`}>
@@ -30,7 +30,7 @@ I am a professional editor and software developer. I have been professionally in
                 </p>
               </div>
               <div className={`order-first lg:order-last flex-shrink-0 relative w-[160px] h-[160px] rounded-full pulse-avatar-online `}>
-                <img alt="umutbayraktar" src={`https://media.discordapp.net/attachments/737348411568685066/996841172372824184/YT_AVATAR_NET.jpg`} width="160" height="160" className={`bg-neutral-700 w-[160px] h-[160px] rounded-full`} />
+                <img alt="Fuwk4n" src={`https://cdn.discordapp.com/avatars/691729067636031538/a_ef3cdf1163f5bb2c62068a34dfb7c87c.gif?size=1024`} width="160" height="160" className={`bg-neutral-700 w-[160px] h-[160px] rounded-full`} />
                 <div className={`bg-[#040404] rounded-full px-[4px] py-[1px] flex items-center absolute bottom-0 right-4`}>
                   <Tippy content="Online" animation="shift-away" arrow={false}>
                     <i className={`fad fa-circle text-2xl text-online`} />
@@ -56,7 +56,7 @@ I am a professional editor and software developer. I have been professionally in
                   .map((_, __) => (
                     <a
                       key={__}
-                      href={`https://github.com/umutxyp/`+_.name}
+                      href={`https://github.com/fuwk4n/`+_.name}
                       target="_blank"
                       rel="noreferrer"
                       className="bg-[#191932]/20 p-4 hover:bg-[#191932]/30 shadow-lg hover:shadow-xl transition-all duration-200 rounded-lg w-full"
