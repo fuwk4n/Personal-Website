@@ -46,17 +46,17 @@ function MyApp({ Component, pageProps }) {
     <Transition
           as={Fragment}
           show={!load ? true : false}
-          enter="transform transition duration-[100ms]"
+          enter="transform transition duration-[2000ms]"
           enterFrom="opacity-0"
           enterTo="opacity-100"
-          leave="transform duration-[250ms] transition ease-in-out"
+          leave="transform duration-[2000ms] transition ease-in-out"
           leaveFrom="opacity-100"
           leaveTo="opacity-0"
       >
         <div style={{ zIndex: 99999 }} className="fixed bg-black/75 w-full h-screen flex justify-center items-center pointer-events-none">
             <div className="flex items-center gap-x-6 animate-pulse">
                 <div className="text-center">
-                    <p className="text-6xl mb-5 font-semibold">Fuwk4n</p>
+                    <p className="text-6xl mb-5 font-semibold">Neleri kaybettik inan senin lafın bile olmaz.</p>
                     <p className="uppercase text-xl font-semibold text-white"><i className="fal fa-spinner-third fa-spin" /></p>
                 </div>
             </div>
