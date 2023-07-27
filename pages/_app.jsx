@@ -38,7 +38,7 @@ function MyApp({ Component, pageProps }) {
   return (<>
     <Head>
         <title>Fuwk4n</title>
-        <link rel="shortcut icon" href="https://cdn.discordapp.com/avatars/691729067636031538/3d7584c80dfe767a07724d1549d36378.webp?size=1024" type="image/x-icon" ></link>
+        <link rel="shortcut icon" href="https://cdn.discordapp.com/icons/1112481570935283842/a_80f43323ad33a6053557b84ea7a14997.gif?size=512" type="image/x-icon" ></link>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link href="https://pro.fontawesome.com/releases/v5.15.4/css/all.css" rel="stylesheet" />
 
